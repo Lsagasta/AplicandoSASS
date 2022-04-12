@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;600;800&display=swap");
+.barrita {
+  background-color: #5EBDAA;
+  padding: 0 30px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .barrita ul {
+    display: flex; }
+    .barrita ul li {
+      list-style: none; }
+      .barrita ul li:hover {
+        transform: translate(5%, -5%); }
+      .barrita ul li a {
+        font-size: 1.5em;
+        margin: 9px;
+        text-decoration: none;
+        color: white; }
+        .barrita ul li a:hover {
+          transform: translate(10%, -10%);
+          color: #231a24; }
